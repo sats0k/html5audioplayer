@@ -192,3 +192,7 @@ a:hover, a:focus, a:active {
   color:#00e6ff;
 }
 
+footer {
+ display: flex;
+ justify-content: center;
+}
