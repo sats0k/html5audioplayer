@@ -140,5 +140,4 @@ function function3() {
    }else{
        x.style.display = "none";
    }
-
 }
