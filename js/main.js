@@ -7,7 +7,7 @@ $('#pause').hide();
 initAudio($('#playlist li:first-child'));
 	
 function initAudio(element){
-	var song = element.attr('song');
+    var song = element.attr('song');
     var title = element.text();
     var cover = element.attr('cover');
     var artist = element.attr('artist');
@@ -112,4 +112,33 @@ function showDuration(){
 		}
 		$('#progress').css('width',value+'%');
 	});
+}
+
+//Dropdown Menu
+function function1() {
+   var x = document.getElementById("drop-content1") ;
+   if(x.style.display === "none") {
+       x.style.display = "block";
+   }else{
+       x.style.display = "none";
+   }
+}
+
+function function2() {
+   var x = document.getElementById("drop-content2") ;
+   if(x.style.display === "none") {
+       x.style.display = "block";
+   }else{
+       x.style.display = "none";
+   }
+}
+
+function function3() {
+   var x = document.getElementById("drop-content3") ;
+   if(x.style.display === "none") {
+       x.style.display = "block";
+   }else{
+       x.style.display = "none";
+   }
+
 }
