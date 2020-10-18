@@ -141,3 +141,173 @@ function function3() {
        x.style.display = "none";
    }
 }
+
+//Play At Specific Time
+//First Album
+$('#a01').click(function () {
+    audio.pause();
+    initAudio($(this));
+	audio.currentTime = 0;
+	$('#play').hide();
+	$('#pause').show();
+	$('#duration').fadeIn(400);
+	audio.play();
+	showDuration();
+});
+
+$('#a02').click(function(){
+    audio.pause();
+    initAudio($(this));
+	audio.currentTime = 319;
+	$('#play').hide();
+	$('#pause').show();
+	$('#duration').fadeIn(400);
+	audio.play();
+	showDuration();
+});
+
+$('#a03').click(function(){
+    audio.pause();
+    initAudio($(this));
+	audio.currentTime = 680;
+	$('#play').hide();
+	$('#pause').show();
+	$('#duration').fadeIn(400);
+	audio.play();
+	showDuration();
+});
+
+$('#a04').click(function(){
+    audio.pause();
+    initAudio($(this));
+	audio.currentTime = 931;
+	$('#play').hide();
+	$('#pause').show();
+	$('#duration').fadeIn(400);
+	audio.play();
+	showDuration();
+});
+
+$('#a05').click(function(){
+    audio.pause();
+    initAudio($(this));
+	audio.currentTime = 1293;
+	$('#play').hide();
+	$('#pause').show();
+	$('#duration').fadeIn(400);
+	audio.play();
+	showDuration();
+});
+
+//Second Album
+$('#b01').click(function(){
+    audio.pause();
+    initAudio($(this));
+	audio.currentTime = 0;
+	$('#play').hide();
+	$('#pause').show();
+	$('#duration').fadeIn(400);
+	audio.play();
+	showDuration();
+});
+
+$('#b02').click(function(){
+    audio.pause();
+    initAudio($(this));
+	audio.currentTime = 515;
+	$('#play').hide();
+	$('#pause').show();
+	$('#duration').fadeIn(400);
+	audio.play();
+	showDuration();
+});
+
+$('#b03').click(function(){
+    audio.pause();
+    initAudio($(this));
+	audio.currentTime = 743;
+	$('#play').hide();
+	$('#pause').show();
+	$('#duration').fadeIn(400);
+	audio.play();
+	showDuration();
+});
+
+$('#b04').click(function(){
+    audio.pause();
+    initAudio($(this));
+	audio.currentTime = 1060;
+	$('#play').hide();
+	$('#pause').show();
+	$('#duration').fadeIn(400);
+	audio.play();
+	showDuration();
+});
+
+$('#b05').click(function(){
+    audio.pause();
+    initAudio($(this));
+	audio.currentTime = 1450;
+	$('#play').hide();
+	$('#pause').show();
+	$('#duration').fadeIn(400);
+	audio.play();
+	showDuration();
+});
+
+//Third Album
+$('#c01').click(function(){
+    audio.pause();
+    initAudio($(this));
+	audio.currentTime = 0;
+	$('#play').hide();
+	$('#pause').show();
+	$('#duration').fadeIn(400);
+	audio.play();
+	showDuration();
+});
+
+$('#c02').click(function(){
+    audio.pause();
+    initAudio($(this));
+	audio.currentTime = 769;
+	$('#play').hide();
+	$('#pause').show();
+	$('#duration').fadeIn(400);
+	audio.play();
+	showDuration();
+});
+
+$('#c03').click(function(){
+    audio.pause();
+    initAudio($(this));
+	audio.currentTime = 1104;
+	$('#play').hide();
+	$('#pause').show();
+	$('#duration').fadeIn(400);
+	audio.play();
+	showDuration();
+});
+
+$('#c04').click(function(){
+    audio.pause();
+    initAudio($(this));
+	audio.currentTime = 1388;
+	$('#play').hide();
+	$('#pause').show();
+	$('#duration').fadeIn(400);
+	audio.play();
+	showDuration();
+});
+
+$('#c05').click(function(){
+    audio.pause();
+    initAudio($(this));
+	audio.currentTime = 1765;
+	$('#play').hide();
+	$('#pause').show();
+	$('#duration').fadeIn(400);
+	audio.play();
+	showDuration();
+});
+

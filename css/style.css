@@ -170,4 +170,25 @@ button#btn1, #btn2, #btn3 {
   background-position:center;
 }
 
+#drop-content1, #drop-content2, #drop-content3 {
+  margin-left:14px;
+  margin-top:0px;
+}
+
+a:link {
+  margin-right:5px;
+  color:white;
+  background-color:transparent;
+  text-decoration:none;
+}
+
+a:visited {
+  color:transparent;
+  background-color:transparent;
+  text-decoration:none;
+}
+
+a:hover, a:focus, a:active {
+  color:#00e6ff;
+}
 
