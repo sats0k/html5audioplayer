@@ -7,7 +7,7 @@
 **1.0**
 
 ## Demo ##
-To view a live demo, please go to - [http://codedemos.com/html5/html5audioplayer](http://www.codedemos.com/html5/html5audioplayer)
+To view a live demo, please go to - [Gmusik](http://gm.sytes.net)
 
 
 ##Installation##

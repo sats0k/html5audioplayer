@@ -10,3 +10,11 @@
 * Pause functionality using audio.pause
 * Duration functionality
 * Change track next and prev
+### 1.0 / 09-17-2020 - 09-18-2020###
+
+**Development**
+
+* Created new style playlist.
+* New drop down button for the playlist.
+* Minor fixes.
+* Create Licence.
